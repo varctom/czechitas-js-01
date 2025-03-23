@@ -1,0 +1,20 @@
+a.button--blue {
+  background-color: green;
+}
+
+.button--blue {
+  display: inline-block;
+  /* Makes it take up space like a button */
+  padding: 10px 20px;
+  /* Adds spacing inside the button */
+  color: white;
+  /* White text */
+  text-decoration: none;
+  /* Removes underline */
+  text-align: center;
+}
+
+.button--blue:hover {
+  background-color: #0056b3;
+  /* Darker blue on hover */
+}
